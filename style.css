@@ -1,5 +1,6 @@
-title{
-    font-size: x-large;
+<h1 class="title"> My first webpage</h1>
+h1{
+    font-size: xx-large;
 }
 h2{ 
     background-color: blue
