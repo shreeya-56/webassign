@@ -1,0 +1,34 @@
+@media (min-width: 750px) and (max-width: 3840px) {
+    .post-author a,
+    .post-date a,
+    .post-favourite a,
+    .post-comments a,
+    .post-share a {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .post-author a,
+    .post-date a,
+    .post-favourite a,
+    .post-comments a,
+    .post-share a {
+        font-size: 12px;
+    }
+    .navbar-toggler {
+        background-color: #fc6c3f;
+        width: 100%;
+        color: #fff;
+        margin-bottom: 30px;
+    }
+    .footer_area .navbar-toggler {
+        margin-bottom: 0;
+    }
+    .navbar.navbar-expand-lg .navbar-nav .nav-link {
+        padding: 7.5px 30px;
+    }
+
+
+}
