@@ -5,28 +5,9 @@
 body {
     background-color: darksalmon;
     font-family: 'Poppins', sans-serif;
-    position: relative;
-    z-index: auto;
     
   }
-
-title{
-    font-size: larger;
-    font-style: normal;
-    font-size: 25%;
-}
-h1{
-    font-size: large;
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 700;
-    color: #232d37;
-    line-height: 1.25;
-}
-h2{ 
-    font-size: medium;
-    background-color: bisque
-}
-ul{
+  ul{
     list-style-type: disc;
     margin:0;
     padding: 0;
@@ -36,20 +17,37 @@ li{
     float:left;
 }
 li a {
-    display: contents;
+    display: inline-block;;
     color: aquamarine;
     text-align: center;
-    padding: 14px 16px;
+    padding: 24px 36px;
     text-decoration: blueviolet;
 }
 li a:hover {
 background-color: crimson;
 }
+
+
+title{
+    font-size: larger;
+    font-style: normal;
+    font-size: 50%;
+}
+h1{
+    font-size: large;
+    font-family: 'Quicksand', sans-serif;
+    color: #232d37;
+  
+}
+h2{ 
+    font-size: medium;
+    background-color: bisque
+}
 .contact-form .form-control,
 .comment-form .form-control {
     border: 1px solid #ebebeb;
     height: 50px;
-}
+
 
 .contact-form .form-control:focus,
 .comment-form .form-control:focus {
