@@ -5,21 +5,23 @@
   <link rel="stylesheet" href="style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Contact details</title>
+    <style>
+        @media screen and (max-width: 600px) {
+           .col-25, .col-75, input[type=submit] {
+             width: 100%;
+             margin-top: 0;
+           }
+        }
+    </style>
  </head>
- <style>
- @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
- </style>
  <body>
         <div class="topnav">
-        <nav>
+        <nav><ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="aboutindex.html">About me</a> </li>
                 <li><a href="Myphotography.html">My photography</a></li>
                 <li><a href="contact.html">Contact</a></li>
-        </nav>
+            </ul></nav>
         </div>
         
      <h1 class="title">Contact details</h1>
@@ -44,9 +46,6 @@
       <input type="text" id="lname" name="lastname" placeholder="Your last name..">
     </div>
   </div>
-    <div class="col-25">
-        <input type="email" class="form-control" name="email" id="contact-email" placeholder="Email">
-    </div>
   <div class="row">
     <div class="col-25">
       <label for="country">Country</label>
@@ -64,7 +63,8 @@
       <label for="subject">Subject</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px">
+      <textarea id="subject" name="subject" placeholder="Write something.." 
+      style="height:200px">
         </textarea>
     </div>
   </div>
@@ -99,8 +99,6 @@
         </div>
     </div>
     
- </body>
- <div class="copy_right_text text-center">
-        <p>Copyright @2019 All rights reserved | Made by shreeya</p>
-        </div>
+<p>Copyright &#169;2019 All rights reserved /Made by shreeya</p>
+</body>
 </html>
