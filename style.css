@@ -13,7 +13,7 @@ body {
   /* Style the header */
   .header {
     background-color: #f1f1f1;
-    padding: 20px;
+    padding: 10px;
     text-align: center;
   }
   
@@ -29,7 +29,7 @@ body {
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 14px;
     text-decoration: none;
   }
   
@@ -87,7 +87,7 @@ text-align: center;
     text-transform: uppercase;
     font-weight: 500;
     color: #fff;
-    background-color: #fc6c3f;
+    background-color: lightblue;
     border-radius: 30px;
 }
 
