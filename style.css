@@ -64,6 +64,13 @@ p {
 display: inline;
 text-align: center;
 }
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 3vw;
+    font-weight: bold;
+}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
