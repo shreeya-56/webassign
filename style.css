@@ -70,10 +70,7 @@ figcaption{
     font-size: 3vw;
     font-weight: bold;
 }
-video {
-  width: 100%;
-  height: auto;
-}
+
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
