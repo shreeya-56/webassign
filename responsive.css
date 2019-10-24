@@ -8,8 +8,9 @@
     }
 
 }
-
-
-
-
+@media screen and (max-width: 3840px) {
+    .topnav li a {
+      float: none;
+      width: 200%;
+    }
 }
